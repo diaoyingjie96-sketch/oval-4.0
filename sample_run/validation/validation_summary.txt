@@ -1,0 +1,35 @@
+Oval defect validation summary
+================================
+validation_status: FAILED
+message: Bad/good score distributions are not reliably separable with the current CV metrics.
+threshold: 91.67774743541328
+borderline_margin: 5.0
+bad_count: 48
+good_count: 50
+tp: 1
+fn: 47
+fp: 0
+tn: 50
+bad_recall: 0.020833333333333332
+good_specificity: 1.0
+precision: 1.0
+accuracy: 0.5204081632653061
+f1: 0.04081632653061225
+balanced_accuracy: 0.5104166666666666
+
+False positives:
+none
+
+False negatives:
+bad1.png, bad10.png, bad11.png, bad13.png, bad14.png, bad15.png, bad16.png, bad17.png, bad18.png, bad19.png, bad2.png, bad20.png, bad21.png, bad22.png, bad23.png, bad24.png, bad25.png, bad26.png, bad27.png, bad28.png, bad29.png, bad3.png, bad30.png, bad31.png, bad32.png, bad33.png, bad34.png, bad35.png, bad36.png, bad37.png, bad38.png, bad39.png, bad4.png, bad40.png, bad41.png, bad42.png, bad43.png, bad44.png, bad45.png, bad46.png, bad47.png, bad48.png, bad5.png, bad6.png, bad7.png, bad8.png, bad9.png
+
+Borderline validation examples:
+none
+
+Recommended extra samples:
+- weak oval defect
+- oval defect in dark region
+- oval defect in gold region
+- oval defect crossing gold/dark boundary
+- good hard negatives with smooth color nonuniformity but no oval ring
+- good hard negatives with dense pad/trace/black-line structures
